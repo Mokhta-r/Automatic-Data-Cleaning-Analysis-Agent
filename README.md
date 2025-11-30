@@ -44,26 +44,4 @@ Build an **agent-style system** that:
    - Insights + warnings
 5. **Exports**:
    - `cleaned_dataset.csv` (or .xlsx)
-   - `analysis_report.md` (and optionally PDF)
 
-## 🏗️ High-Level Architecture
-
-```text
-User dataset (CSV/Excel)
-          │
-          ▼
-  Data Loader Tool
-          │
-          ▼
-  Data Profiler Tool
-          │
-          ▼
-   Data Cleaner Tool
-          │
-          ▼
-  Analysis & Insights Tool
-          │
-          ▼
- Report & Export Tool
-   ├─ cleaned_dataset.csv
-   └─ analysis_report.md/.pdf
