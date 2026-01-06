@@ -3,7 +3,7 @@
 ## 🎯 Objective
 
 This project implements an **Automatic Data Cleaning & Analysis Agent** that:
-- Loads raw **CSV/Excel** datasets
+- Loads raw **CSV** datasets
 - Automatically **profiles**, **cleans**, and **analyzes** the data
 - Exports:
   - A **cleaned dataset** ready for modeling
@@ -27,7 +27,7 @@ This preprocessing phase is:
 
 Build an **agent-style system** that:
 
-1. **Loads** any CSV/Excel file
+1. **Loads** any CSV file
 2. **Analyzes** the structure:
    - Shape, columns, data types
    - Missing value report
@@ -37,11 +37,7 @@ Build an **agent-style system** that:
    - Detects & removes duplicates
    - Fixes inconsistent types
    - Detects basic outliers
-4. **Analyzes** the cleaned dataset:
-   - Descriptive statistics
-   - Correlations
-   - Distribution summaries
-   - Insights + warnings
-5. **Exports**:
-   - `cleaned_dataset.csv` (or .xlsx)
+
+4. **Exports**:
+   - `cleaned_dataset.csv`
 
